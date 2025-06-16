@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  
+  
+</head>
+<body>
+  <!-- Toggle Buttons -->
+  <button class="toggle-sidebar"><i class="fas fa-bars"></i></button>
+  <!-- <button ><i class="fas fa-user"></i></button> -->
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <img src="images/profile.jpg" alt="Profile">
+    <span class="name">Madhanraj M</span>
+    <div>
+      <a href="#"><i  class="fas fa-user fa-1x icon active user-icon"></i></a>
+      <a href="#"><i class="fas fa-info-circle fa-1x icon"></i></a>
+      <a href="#"><i class="fas fa-bookmark fa-1x icon"></i></a>
+    </div>
+
+    <div class="w-100">
+      <span class="list-head mt-2 d-block text-start ps-3 hidden-s">Overview</span>
+    </div>
+
+    <ul class="list-group mt-2">
+      <a href="#" style="text-decoration: none;"><li class="list-group-item list-items active"><i class="fa-solid fa-gauge-high" style="color: #9380c4;"></i> Dashboard</li></a>
+      <a href="#" style="text-decoration: none;"><li class="list-group-item list-items"><i class="fa-regular fa-message"></i> Messages</li></a>
+      <a href="#" style="text-decoration: none;"><li class="list-group-item list-items"><i class="fa-regular fa-bookmark"></i> My Courses</li></a>
+      <a href="#" style="text-decoration: none;"><li class="list-group-item list-items"><i class="fas fa-bolt"></i> My Status</li></a>
+      <a href="#" style="text-decoration: none;"><li class="list-group-item list-items"><i class="fas fa-star"></i> Reviews</li></a>
+      <a href="#" style="text-decoration: none;"><li class="list-group-item list-items"><i class="fas fa-user-circle"></i> My Accounts</li></a>
+    </ul>
+
+    <div class="container pro d-flex flex-column align-items-center justify-content-center">
+      <i class="fa-solid fa-shield-halved fa-2x" style="position: absolute; top: 18px; color: #9480c5;"></i>
+      <span style="margin-top: 40px;">Upgrade Your Plan</span>
+      <span>Find Out Here</span>
+      <button class="btn1" style="margin-top: 10px;">Get Pro Now</button>
+    </div>
+  </div>
+
+  <!-- Main Content Area -->
+  <div class="main">
+    <!-- Left Main Content -->
+    <div class="left-main">
+      <div class="d-flex flex-row justify-content-between align-items-center mt-2 mb-2 ">
+        <div><i class="fa-solid fa-hand fa-2x" style="color: #FFD43B; margin-left: 30px; justify-content:center"></i><span style="color: black; font-weight: 600;"> Hii Madhanraj, Happy Learning.</span></div>
+        <button type="button" class="btn" style="width: 150px; height: 40px; ">New Course</button>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col mx-1 d-flex flex-column mb-2" style="background-color: #77bf7e;">
+          <img src="images/adobe.jpg" style="width: 50px; height: 50px; border-radius: 50px; margin-top: 15px;">
+          <span>  Adobe <br>Illustrator</span>
+          <div style="display: flex; justify-content: center; align-items: center; height: 100px;">
+            <div class="d-flex flex-row icon-container justify-content-center align-items-center">
+              <span style="color: #000000; margin: 0 10px;"><i class="fa-solid fa-book fa-1x" style="color: #000000; cursor: pointer;"></i> 36</span>
+              <span style="color: black; margin-bottom: 5px;">|</span>
+              <span style="color: #000000; margin: 0 10px;"><i class="fa-regular fa-square-check" style="color: #000000; cursor: pointer;"></i> 10</span>
+              <span style="color: black; margin-bottom: 5px;">|</span>
+              <span style="color: #000000; margin: 0 10px;"><i class="fa-regular fa-user" style="color: #000000; cursor: pointer;"></i> 108</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mx-1 d-flex flex-column" style="background-color: #9480c5;">
+          <img src="images/sketch.png" style="width: 50px; height: 50px; border-radius: 50px; margin-top: 17px;">
+          <span>Sketch - <br> UI Design</span>
+          <div style="display: flex; justify-content: center; align-items: center; height: 100px;">
+            <div class="d-flex flex-row icon-container justify-content-center align-items-center">
+              <span style="color: #000000; margin: 0 10px;"><i class="fa-solid fa-book fa-1x" style="color: #000000; cursor: pointer;"></i> 36</span>
+              <span style="color: black; margin-bottom: 5px;">|</span>
+              <span style="color: #000000; margin: 0 10px;"><i class="fa-regular fa-square-check" style="color: #000000; cursor: pointer;"></i> 10</span>
+              <span style="color: black; margin-bottom: 5px;">|</span>
+              <span style="color: #000000; margin: 0 10px;"><i class="fa-regular fa-user" style="color: #000000; cursor: pointer;"></i> 108</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mx-1 d-flex flex-column" style="background-color: #9aa5b0;">
+          <img src="images/figma.png" style="width: 50px; height: 50px; border-radius: 50px; margin-top: 15px;">
+          <span>Get Started <br> With Figma</span>
+          <div style="display: flex; justify-content: center; align-items: center; height: 100px;">
+            <div class="d-flex flex-row icon-container justify-content-center align-items-center">
+              <span style="color: #000000; margin: 0 10px;"><i class="fa-solid fa-book fa-1x" style="color: #000000; cursor: pointer;"></i> 36</span>
+              <span style="color: black; margin-bottom: 5px;">|</span>
+              <span style="color: #000000; margin: 0 10px;"><i class="fa-regular fa-square-check" style="color: #000000; cursor: pointer;"></i> 10</span>
+              <span style="color: black; margin-bottom: 5px;">|</span>
+              <span style="color: #000000; margin: 0 10px;"><i class="fa-regular fa-user" style="color: #000000; cursor: pointer;"></i> 108</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+      <div class="row mt-3">
+        <div class="col-md-6 coll1 mx-1">
+          <div class="d-flex flex-row justify-content-between">
+            <span class="card-head mt-0">Continue Learning</span>
+          </div>
+          <hr style="margin-top: 5px; margin-bottom: 5px; color: black; height: 10px;">
+          <div class="scroll-wrapper">
+            <div class="scroll-content d-flex">
+              <div class="column mx-2">
+                <div class="col4 mb-2 d-flex flex-column p-2" style="border-radius: 10px;">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <img src="images/bootstrap.png" style="width: 45px; height: 45px; border-radius: 10px; margin-bottom: 10px;">
+                    <button class="btns btn-sm d-flex align-items-center justify-content-center" style="width: 70px; height: 25px; font-size: 13px; font-weight: 600;">Continue</button>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                    <div class="progress-bar" style="width: 90%; background-color: #75bf7e;"></div>
+                  </div>
+                </div>
+                <div class="col4 mb-2 d-flex flex-column p-2" style="border-radius: 10px;">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <img src="images/davinci.png" style="width: 45px; height: 45px; border-radius: 10px; margin-bottom: 10px;">
+                    <button class="btns btn-sm d-flex align-items-center justify-content-center" style="width: 70px; height: 25px; font-size: 13px; font-weight: 600;">Continue</button>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                    <div class="progress-bar" style="width: 50%; background-color: #75bf7e;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="column mx-2">
+                <div class="col4 mb-2 d-flex flex-column p-2" style="border-radius: 10px;">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <img src="images/C.png" style="width: 45px; height: 45px; border-radius: 10px; margin-bottom: 10px;">
+                    <button class="btns btn-sm d-flex align-items-center justify-content-center" style="width: 70px; height: 25px; font-size: 13px; font-weight: 600;">Continue</button>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                  </div>
+                </div>
+                <div class="col4 mb-2 d-flex flex-column p-2" style="border-radius: 10px;">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <img src="images/Vue.png" style="width: 45px; height: 45px; border-radius: 10px; margin-bottom: 10px;">
+                    <button class="btns btn-sm d-flex align-items-center justify-content-center" style="width: 70px; height: 25px; font-size: 13px; font-weight: 600;">Continue</button>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                    <div class="progress-bar" style="width: 65%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="column mx-2">
+                <div class="col4 mb-2 d-flex flex-column p-2" style="border-radius: 10px;">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <img src="images/capcut.png" style="width: 45px; height: 45px; border-radius: 10px; margin-bottom: 10px;">
+                    <button class="btns btn-sm d-flex align-items-center justify-content-center" style="width: 70px; height: 25px; font-size: 13px; font-weight: 600;">Continue</button>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                    <div class="progress-bar" style="width: 95%;"></div>
+                  </div>
+                </div>
+                <div class="col4 mb-2 d-flex flex-column p-2" style="border-radius: 10px;">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <img src="images/premiere.jpg" style="width: 45px; height: 45px; border-radius: 10px; margin-bottom: 10px;">
+                    <button class="btns btn-sm d-flex align-items-center justify-content-center" style="width: 70px; height: 25px; font-size: 13px; font-weight: 600;">Continue</button>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                    <div class="progress-bar" style="width: 10%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="column mx-2">
+                <div class="col4 mb-2 d-flex flex-column p-2" style="border-radius: 10px;">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <img src="images/kotlin.jpg" style="width: 45px; height: 45px; border-radius: 10px; margin-bottom: 10px;">
+                    <button class="btns btn-sm d-flex align-items-center justify-content-center" style="width: 70px; height: 25px; font-size: 13px; font-weight: 600;">Continue</button>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                    <div class="progress-bar" style="width: 30%; background-color: #75bf7e;"></div>
+                  </div>
+                </div>
+                <div class="col4 mb-2 d-flex flex-column p-2" style="border-radius: 10px;">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <img src="images/node.png" style="width: 45px; height: 45px; border-radius: 10px; margin-bottom: 10px;">
+                    <button class="btns btn-sm d-flex align-items-center justify-content-center" style="width: 70px; height: 25px; font-size: 13px; font-weight: 600;">Continue</button>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                    <div class="progress-bar" style="width: 25%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="column mx-2">
+                <div class="col4 mb-2 d-flex flex-column p-2" style="border-radius: 10px;">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <img src="images/Angular js.png" style="width: 45px; height: 45px; border-radius: 10px; margin-bottom: 10px;">
+                    <button class="btns btn-sm d-flex align-items-center justify-content-center" style="width: 70px; height: 25px; font-size: 13px; font-weight: 600;">Continue</button>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                    <div class="progress-bar" style="width: 40%;"></div>
+                  </div>
+                </div>
+                <div class="col4 mb-2 d-flex flex-column p-2" style="border-radius: 10px;">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <img src="images/Mongo.png" style="width: 45px; height: 45px; border-radius: 10px; margin-bottom: 10px;">
+                    <button class="btns btn-sm d-flex align-items-center justify-content-center" style="width: 70px; height: 25px; font-size: 13px; font-weight: 600;">Continue</button>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                    <div class="progress-bar" style="width: 60%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col coll2 mx-1">
+          <div class="d-flex flex-row justify-content-between">
+            <span class="card-head mt-2">Completed Course</span>
+            <div class="dropdown">
+              <button class="btn btn-light p-0 border-0 dropdown-toggle no-caret" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent;">
+                <i class="fas fa-ellipsis-h" style="color: black;"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li style="margin-left: 5px;">Sort By</li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Latest</a></li>
+                <li><a class="dropdown-item" href="#">Old</a></li>
+                <li><a class="dropdown-item" href="#">Name</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr style="margin-top: 8px; margin-bottom: 5px; color: black; height: 10px;">
+          <ul class="list-group group m-0" style="max-height: 200px; overflow-y: auto;">
+            <li class="list-group-item list-items-2 d-flex flex-row justify-content-between align-items-center">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/figma.png" style="width: 35px; height: 35px; border-radius: 5px; margin-right: 15px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600;">Figma</div>
+                  <div style="font-size: 12px; color: gray;">Basics</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center justify-content-center" style="width: 35px; height: 35px; background-color: #9380c4; border-radius: 4px; color: white; line-height: 1;">
+                <span style="margin: 0; padding: 0; font-weight: 700;">100</span>
+                <span style="margin: 0; padding: 0; font-size: 10px;">hours</span>
+              </div>
+            </li>
+            <li class="list-group-item list-items-2 d-flex flex-row justify-content-between align-items-center">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/HTML.jpg" style="width: 35px; height: 35px; border-radius: 5px; margin-right: 15px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600;">HTML</div>
+                  <div style="font-size: 12px; color: gray;">Expert</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center justify-content-center" style="width: 35px; height: 35px; background-color: #9380c4; border-radius: 4px; color: white; line-height: 1;">
+                <span style="margin: 0; padding: 0; font-weight: 700;">69</span>
+                <span style="margin: 0; padding: 0; font-size: 10px;">hours</span>
+              </div>
+            </li>
+            <li class="list-group-item list-items-2 d-flex flex-row justify-content-between align-items-center">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/css.png" style="width: 35px; height: 35px; border-radius: 5px; margin-right: 15px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600;">CSS</div>
+                  <div style="font-size: 12px; color: gray;">Expert</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center justify-content-center" style="width: 35px; height: 35px; background-color: #9380c4; border-radius: 4px; color: white; line-height: 1;">
+                <span style="margin: 0; padding: 0; font-weight: 700;">99</span>
+                <span style="margin: 0; padding: 0; font-size: 10px;">hours</span>
+              </div>
+            </li>
+            <li class="list-group-item list-items-2 d-flex flex-row justify-content-between align-items-center">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/react.png" style="width: 35px; height: 35px; border-radius: 5px; margin-right: 15px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600;">React.js</div>
+                  <div style="font-size: 12px; color: gray;">Beginner</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center justify-content-center" style="width: 35px; height: 35px; background-color: #9380c4; border-radius: 4px; color: white; line-height: 1;">
+                <span style="margin: 0; padding: 0; font-weight: 700;">100</span>
+                <span style="margin: 0; padding: 0; font-size: 10px;">hours</span>
+              </div>
+            </li>
+            <li class="list-group-item list-items-2 d-flex flex-row justify-content-between align-items-center">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/git.png" style="width: 30px; height: 30px; border-radius: 5px; margin-right: 20px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600;">Git Hub</div>
+                  <div style="font-size: 12px; color: gray;">Intermediate</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center justify-content-center" style="width: 35px; height: 35px; background-color: #9380c4; border-radius: 4px; color: white; line-height: 1;">
+                <span style="margin: 0; padding: 0; font-weight: 700;">98</span>
+                <span style="margin: 0; padding: 0; font-size: 10px;">hours</span>
+              </div>
+            </li>
+            <li class="list-group-item list-items-2 d-flex flex-row justify-content-between align-items-center">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/python.png" style="width: 30px; height: 30px; border-radius: 5px; margin-right: 20px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600;">Python</div>
+                  <div style="font-size: 12px; color: gray;">Advance</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center justify-content-center" style="width: 35px; height: 35px; background-color: #9380c4; border-radius: 4px; color: white; line-height: 1;">
+                <span style="margin: 0; padding: 0; font-weight: 700;">100</span>
+                <span style="margin: 0; padding: 0; font-size: 10px;">hours</span>
+              </div>
+            </li>
+            <li class="list-group-item list-items-2 d-flex flex-row justify-content-between align-items-center">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/java.png" style="width: 30px; height: 30px; border-radius: 5px; margin-right: 20px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600;">Java</div>
+                  <div style="font-size: 12px; color: gray;">Beginner</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center justify-content-center" style="width: 35px; height: 35px; background-color: #9380c4; border-radius: 4px; color: white; line-height: 1;">
+                <span style="margin: 0; padding: 0; font-weight: 700;">98</span>
+                <span style="margin: 0; padding: 0; font-size: 10px;">hours</span>
+              </div>
+            </li>
+            <li class="list-group-item list-items-2 d-flex flex-row justify-content-between align-items-center">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/javascript.png" style="width: 30px; height: 30px; border-radius: 5px; margin-right: 20px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600;">Java Script</div>
+                  <div style="font-size: 12px; color: gray;">Intermediate</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center justify-content-center" style="width: 35px; height: 35px; background-color: #9380c4; border-radius: 4px; color: white; line-height: 1;">
+                <span style="margin: 0; padding: 0; font-weight: 700;">98</span>
+                <span style="margin: 0; padding: 0; font-size: 10px;">hours</span>
+              </div>
+            </li>
+            <li class="list-group-item list-items-2 d-flex flex-row justify-content-between align-items-center">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/flutter.png" style="width: 30px; height: 30px; border-radius: 5px; margin-right: 20px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600;">Flutter</div>
+                  <div style="font-size: 12px; color: gray;">Beginner</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center justify-content-center" style="width: 35px; height: 35px; background-color: #9380c4; border-radius: 4px; color: white; line-height: 1;">
+                <span style="margin: 0; padding: 0; font-weight: 700;">98</span>
+                <span style="margin: 0; padding: 0; font-size: 10px;">hours</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col coll3 mx-1">
+          <div class="d-flex flex-row justify-content-between mx-2">
+            <span class="card-head">Assignments</span>
+            <div class="dropdown">
+              <button class="btn btn-light p-0 border-0 dropdown-toggle no-caret" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent;">
+                <i class="fas fa-ellipsis-h" style="color: black;"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li style="margin-left: 5px;">Sort By</li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">New</a></li>
+                <li><a class="dropdown-item" href="#">Old</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr style="margin-top: 5px; margin-bottom: 10px; color: black; height: 10px;">
+          <div class="d-flex flex-column p-3">
+            <div class="d-flex flex-row justify-content-between align-items-center Assignments p-3 mt-0">
+              <div class="d-flex flex-row align-items-center ml-5">
+                <i class="fa-regular fa-clipboard fa-2x" style="color: #000000; width: 30px; height: 30px; margin-right: 10px; margin-bottom: 5px;"></i>
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600; font-size: 14px;">Writing</div>
+                  <div style="font-size: 12px; color: gray;">Due in 5 days</div>
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right" style="color: #000000; cursor: pointer;"></i>
+            </div>
+            <div class="d-flex flex-row justify-content-between align-items-center Assignments p-3">
+              <div class="d-flex flex-row align-items-center">
+                <i class="fa-solid fa-video fa-2x" style="color: #000000; width: 30px; height: 30px; margin-right: 15px; margin-bottom: 5px;"></i>
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600; font-size: 14px;">Presentation</div>
+                  <div style="font-size: 12px; color: gray;">Due in 3 days</div>
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right" style="color: #000000; cursor: pointer;"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col coll3 mx-1">
+          <div class="d-flex flex-row justify-content-between mx-2">
+            <span class="card-head">Top Mentors</span>
+            <div class="dropdown">
+              <button class="btn btn-light p-0 border-0 dropdown-toggle no-caret" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent;">
+                <i class="fas fa-ellipsis-h" style="color: black;"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li style="margin-left: 5px;">Sort By</li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Name</a></li>
+                <li><a class="dropdown-item" href="#">Latest</a></li>
+                <li><a class="dropdown-item" href="#">Old</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr style="margin-top: 5px; margin-bottom: 5px; color: black; height: 10px;">
+          <div class="d-flex flex-column align-items-center mentor-list">
+            <div class="d-flex flex-row justify-content-between align-items-center mentor p-3">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/profile.jpg" style="width: 30px; height: 30px; border-radius: 5px; margin-right: 10px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600; font-size: 14px;">Madhanraj M</div>
+                  <div style="font-size: 12px; color: gray;">Developer</div>
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right" style="color: #000000; cursor: pointer;"></i>
+            </div>
+            <div class="d-flex flex-row justify-content-between align-items-center mentor p-3">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/profile.jpg" style="width: 30px; height: 30px; border-radius: 5px; margin-right: 10px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600; font-size: 14px;">Madhan</div>
+                  <div style="font-size: 12px; color: gray;">Engineer</div>
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right" style="color: #000000; cursor: pointer;"></i>
+            </div>
+            <div class="d-flex flex-row justify-content-between align-items-center mentor p-3">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/profile.jpg" style="width: 30px; height: 30px; border-radius: 5px; margin-right: 10px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600; font-size: 14px;">Nolan</div>
+                  <div style="font-size: 12px; color: gray;">Director</div>
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right" style="color: #000000; cursor: pointer;"></i>
+            </div>
+            <div class="d-flex flex-row justify-content-between align-items-center mentor p-3">
+              <div class="d-flex flex-row align-items-center">
+                <img src="images/profile.jpg" style="width: 30px; height: 30px; border-radius: 5px; margin-right: 10px;">
+                <div class="d-flex flex-column">
+                  <div style="font-weight: 600; font-size: 14px;">David Fincher</div>
+                  <div style="font-size: 12px; color: gray;">Director</div>
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right" style="color: #000000; cursor: pointer;"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col coll3 mx-1">
+          <div class="d-flex flex-row justify-content-between mx-2">
+            <span class="card-head">Statistics</span>
+            <div class="dropdown">
+              <button class="btn btn-light p-0 border-0 dropdown-toggle no-caret" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent;">
+                <i class="fas fa-ellipsis-h" style="color: black;"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li style="margin-left: 5px;">Sort By</li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Latest</a></li>
+                <li><a class="dropdown-item" href="#">Old</a></li>
+                <li><a class="dropdown-item" href="#">Name</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr style="margin-top: 5px; margin-bottom: 0px; color: black; height: 10px;">
+          <img src="images/bar-graph.png" style="width: 250px; height: 150px; padding: 5px;">
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Main Content -->
+    <div class="right-main">
+      <div class="d-flex flex-row justify-content-between">
+        <div style="margin-top: 20px;">
+          <i class="fa-regular fa-message" style="cursor: pointer; margin-right: 20px;"></i>
+          <i class="fa-regular fa-bell" style="cursor: pointer;"></i>
+        </div>
+        <div>
+          <button class="logout">Logout</button>
+        </div>
+      </div>
+
+      <div class="container-profile mb-2">
+        <div class="d-flex flex-row justify-content-between m-2">
+          <span class="card-head">Profile</span>
+          <div class="dropdown">
+            <button class="btn btn-light p-0 border-0 dropdown-toggle no-caret" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent;">
+              <i class="fa-solid fa-pen-to-square" style="color: black;"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+              <li><a class="dropdown-item" href="#">Switch Account</a></li>
+              <li><a class="dropdown-item" href="#">Sign Out</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr style="margin-top: 2px; margin-bottom: 5px;">
+        <div style="text-align: center;">
+          <img src="images/profile.jpg" style="width: 70px; height: 70px; border-radius: 50px;">
+        </div>
+        <div style="color: white; text-align: center; margin-top: 10px;">
+          <div style="font-weight: bold; font-size: 18px; color: black;">Madhanraj M</div>
+          <div style="font-size: 14px; color: gray;">Junior Developer</div>
+        </div>
+        <div class="calendar">
+          <div class="calendar-header">
+            <span class="prev"><</span>
+            <span class="month-year"></span>
+            <span class="next">></span>
+          </div>
+          <div class="days"></div>
+        </div>
+      </div>
+
+      <div class="container-payment mb-2">
+        <div class="d-flex flex-row justify-content-between m-2">
+          <span class="card-head" style="color: black;">Payment Details</span>
+          <i class="fa-solid fa-pen-to-square" style="display: flex; align-items: center; color: #000000; cursor: pointer;"></i>
+        </div>
+        <hr style="margin-top: 5px; margin-bottom: 10px; color: black; height: 10px;">
+      </div>
+
+      <div class="container-event">
+        <div class="m-2 card-head">Up Coming Events</div>
+        <div class="container-upcoming m-2">
+          <div class="d-flex flex-row justify-content-between align-items-center">
+            <div class="d-flex flex-row align-items-center">
+              <img src="images/XD.png" style="width: 80px; height: 80px; margin: 10px; border-radius: 5px;">
+              <div class="d-flex flex-column">
+                <div style="font-weight: bold; color: white;">Adobe XD for Beginners</div>
+                <div style="font-size: 12px; color: white;">Designer</div>
+              </div>
+            </div>
+            <div class="d-flex flex-column m-3">
+              <div style="color: white; font-weight: 600; font-size:14px;">11.00AM</div>
+              <button class="button">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
