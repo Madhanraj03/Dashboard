@@ -435,7 +435,7 @@ body {
   }
 
   .mentor-list {
-    overflow-y: auto;
+    overflow-x: auto;
     flex: 1;
     width: 100%;
     padding: 0 10px;
